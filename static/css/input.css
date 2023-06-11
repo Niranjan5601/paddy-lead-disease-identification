@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5rem;
+}
+
+form {
+  text-align: center;
+}
+
+
+
+img{
+  align-items: center;
+ 
+}
+/* body::before{
+  background-image: url('/static/static_images/paddy_crops.jpg');
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  opacity: 0.5;
+  background-size: cover;
+  z-index: -1;
+} */
+
+.submitButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+.center {
+  height: 75vh;
+  width: 45vw;
+}
+
+.fillDetails {
+  padding: 25px;
+}
+input[
+  type="file"
+
+]
+{
+  display: block;
+}
+input[
+  type="file"
+
+]::after
+{
+  display: block;
+}
+
+.outerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45vw;
+  height: 75vh;
+}
+
+.flexUnit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spaceAround {
+  margin-left: 30px;
+}
+
+
+.submitButton {
+  background: #FF8787;
+  border-radius: 00.3rem;
+  padding: 6px 10px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.submitButton:hover {
+  background: #E26868;
+  cursor: pointer;
+}
+
+label {
+  font-size: 24px;
+}
+
+input,
+select {
+  font-size: 20px;
+}
+.cta {
+  background-color: #212121;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.cta:hover {
+  background-color: #fff;
+  color: #212121;
+}
+
+#intro {
+
+  padding-top: 5em;
+  padding-left: 6em;
+  margin: auto;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 60vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #212121;
+  color: #fff;
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: #1e90ff;
+  padding: 0.5em;
+  border: thin solid grey;
+  border-radius: 3px;
+}
+
+/* input[type="file"]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #a29bfe;
+  transition: 1s;
+} */
+
+input[type="file"]::file-selector-button:hover {
+  background-color: #1e90ff;
+  color: #fff;
+  border: 2px solid #1e90ff;
+}
